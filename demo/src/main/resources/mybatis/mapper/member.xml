@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- <mapper namespace=””> : 인터페이스의 위치(경로)를 설정한다. -->
+<mapper namespace="ex.mybatis.mapper.member">
+
+	<!-- <select id=”” resultType=””> : id(메소드명과 일치), resultType(리턴타입과 일치) -->
+	<select id="getList" resultType="Member">
+		SELECT
+		memberNo AS memberNo,
+		memberEmail AS memberEmail,
+		memberPwd AS memberPwd,
+		memberName AS memberName,
+		memberPhone AS memberPhone,
+		address AS address,
+		detailAddress AS detailAddress,
+		postalCode AS postalCode,
+		detailNote AS detailNote,
+		role AS role,
+		provider AS provider,
+		regDate AS regDate,
+		modDate AS modDate,
+		memberUse AS memberUse
+		FROM
+		t_member AS m;
+	</select>
+	<select id="countByMemEmail" resultType="Member">
+		SELECT
+		FROM
+		t_member AS m;
+	</select>
+	</mapper>

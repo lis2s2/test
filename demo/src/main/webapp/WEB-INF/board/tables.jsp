@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+New! 단축키 … 첫 글자를 탐색할 수 있도록 Drive 단축키가 업데이트되었습니다.
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -51,7 +52,7 @@
           <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
           </div>
-          <div class="sidebar-brand-text mx-3">ê²ìí</div>
+          <div class="sidebar-brand-text mx-3">게시판</div>
         </a>
 
         <!-- Divider -->
@@ -136,7 +137,7 @@
                   aria-expanded="false"
                 >
                   <span class="mr-2 d-none d-lg-inline text-gray-600 small"
-                    >ëë¤ì</span
+                    >닉네임</span
                   >
                   <img
                     class="img-profile rounded-circle"
@@ -174,7 +175,7 @@
           <!-- Begin Page Content -->
           <div class="container-fluid">
             <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">ê²ìí</h1>
+            <h1 class="h3 mb-2 text-gray-800">게시판</h1>
 
             <!-- DataTales Example -->
             <div class="card shadow mb-4">
@@ -195,18 +196,18 @@
 
                     <thead>
                       <tr>
-                        <th>ëë¤ì</th>
-                        <th>ì ëª©</th>
-                        <th>ë ì§</th>
-                        <th>ëê¸</th>
+                        <th>닉네임</th>
+                        <th>제목</th>
+                        <th>날짜</th>
+                        <th>댓글</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>íê¸¸ë</td>
+                        <td>홍길동</td>
                         <td><a href="detail.html">System Architect</a></td>
                         <td>2011-04-25</td>
-                        <td>0ê°</td>
+                        <td>0개</td>
                       </tr>
                     </tbody>
                   </table>
@@ -215,7 +216,7 @@
                       type="button"
                       class="btn btn-primary btn float-right"
                     >
-                      ê²ìê¸ ìì±
+                      게시글 작성
                     </button></a
                   >
                 </div>
@@ -264,7 +265,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">Ã</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">

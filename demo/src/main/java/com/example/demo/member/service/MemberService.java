@@ -1,8 +1,13 @@
 package com.example.demo.member.service;
 
-import org.springframework.stereotype.Service;
+import java.lang.reflect.Member;
+import java.util.List;
 
-@Service
+import com.example.demo.member.dto.MemberDTO;
+
 public interface MemberService {
 
+	List<Member> getList();
+	
+	boolean register(MemberDTO dto);
 }

@@ -11,6 +11,6 @@
 //	@GetMapping("/")
 //	public String method() {
 //		System.out.println("test");
-//		return "v1";
+//		return "view/v1";
 //	}
 //}
